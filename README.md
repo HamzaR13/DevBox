@@ -27,11 +27,11 @@ DevBox is your all-in-one browser-based developer companion. Whether you're quic
 ## Project Structure:
 
 DevBox/
-  ├── backend/ # Flask backend
-    │ ├── app.py # Main app entry
-    │ ├── api/ # REST API routes
-    │ │ └── terminal.py # Web terminal logic
-    │ ├── models/ # DB models
+├── backend/ # Flask backend
+│ ├── app.py # Main app entry
+│ ├── api/ # REST API routes
+│ │ └── terminal.py # Web terminal logic
+│ ├── models/ # DB models
 │ ├── utils/ # Helper functions
 │ ├── config.py # Config & env loading
 │ └── requirements.txt # Python dependencies
