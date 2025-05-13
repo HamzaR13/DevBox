@@ -25,7 +25,7 @@ DevBox is your all-in-one browser-based developer companion. Whether you're quic
 ---
 
 ## Project Structure:
-DEVBOX
+    DEVBOX
     |-- backend
     |   |-- app.py
     |   |-- config.py
