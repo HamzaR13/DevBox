@@ -27,35 +27,62 @@ DevBox is your all-in-one browser-based developer companion. Whether you're quic
 ## Project Structure:
 
 DevBox/
+
 ├── backend/                  # Flask backend
 
 │   ├── app.py                # Main app entry
 
 │   ├── api/                  # REST API routes
+
 │   │   └── terminal.py       # Web terminal logic
+
 │   ├── models/               # DB models
+
 │   ├── utils/                # Helper functions
+
 │   ├── config.py             # Config & env loading
+
 │   └── requirements.txt      # Python dependencies
+
 │
+
 ├── frontend/                 # React frontend
+
 │   ├── public/
+
 │   └── src/
+
 │       ├── assets/
+
 │       ├── components/
+
 │       ├── pages/
+
 │       ├── App.jsx
+
 │       └── main.jsx
+
 │
+
 ├── scripts/                  # Utility or deployment scripts
+
 │   └── init_db.py            # Example DB init script
+
 │
+
 ├── docs/                     # UML diagrams and documentation
+
 │   ├── architecture.png
+
 │   └── api_routes.md
+
 │
+
 ├── .env.example              # Sample environment variables
+
 ├── .gitignore
+
 ├── README.md
+
 └── docker-compose.yml        # Dev setup
 
