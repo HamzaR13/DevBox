@@ -28,7 +28,9 @@ DevBox is your all-in-one browser-based developer companion. Whether you're quic
 
 DevBox/
 ├── backend/                  # Flask backend
+
 │   ├── app.py                # Main app entry
+
 │   ├── api/                  # REST API routes
 │   │   └── terminal.py       # Web terminal logic
 │   ├── models/               # DB models
