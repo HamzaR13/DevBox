@@ -26,33 +26,23 @@ DevBox is your all-in-one browser-based developer companion. Whether you're quic
 
 ## Project Structure:
     DEVBOX
-    |-- backend
-    |   |-- app.py
-    |   |-- config.py
-    |   |-- requirements.txt
-    |   |-- api
-    |   |   |-- terminal.py
-    |   |-- models
-    |   |-- utils
-    |
-    |-- frontend
-    |   |-- public
-    |   |-- src
-    |       |-- assets
-    |       |-- components
-    |       |-- pages
-    |       |-- App.jsx
-    |       |-- main.jsx
-    |
-    |-- scripts
-    |   |-- init_db.py
-    |
-    |-- docs
-    |   |-- architecture.png
-    |   |-- api_routes.md
-    |
-    |-- .env.example
-    |-- .gitignore
-    |-- docker-compose.yml
-    |-- README.md
+    │
+    ├── client/ (React)
+    │   ├── public/
+    │   ├── src/
+    │   │   ├── components/
+    │   │   ├── pages/
+    │   │   ├── App.jsx
+    │   │   └── index.js
+    │   └── tailwind.config.js
+    │
+    ├── server/ (Flask)
+    │   ├── app.py
+    │   ├── models.py
+    │   ├── routes.py
+    │   └── requirements.txt
+    │
+    ├── README.md
+    └── .gitignore
+
 
