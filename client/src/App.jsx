@@ -1,4 +1,3 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Snippets from "./pages/Snippets";
 import Terminal from "./pages/Terminal";
@@ -14,6 +13,7 @@ function App() {
           <Link to="/terminal">Terminal</Link>
           <Link to="/analytics">Analytics</Link>
         </nav>
+
         <Routes>
           <Route path="/" element={<Snippets />} />
           <Route path="/terminal" element={<Terminal />} />
