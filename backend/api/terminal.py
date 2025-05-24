@@ -19,3 +19,7 @@ def run_command():
         return jsonify({"output": ""})
     else:
         return jsonify({"output": f"Unknown command: {command}"})
+
+# increment values for analytics tracking
+from api.analytics import increment_snippets  # in snippets.py
+increment_snippets()
